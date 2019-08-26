@@ -25,6 +25,7 @@ export default function Opacity() {
   const animatedStyles = {
     transform: [
       { translateY: animation },
+      { translateX: animation },
     ],
   };
 
