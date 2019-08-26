@@ -2,8 +2,12 @@ import React from 'react';
 import { Text, SafeAreaView, StyleSheet, Button } from 'react-native';
 
 import Opacity from './src/1. Opacity';
+import TranslatePosition from './src/2. Translate Position';
 
-const AnimationScreen = [{ title: '1. Opacity', Component: Opacity }];
+const AnimationScreen = [
+  { title: '1. Opacity', Component: Opacity },
+  { title: '2. Translate Position', Component: TranslatePosition },
+];
 
 export default function App() {
   const [animationScreenIdx, setAnimationScreenIdx] = React.useState(null);
