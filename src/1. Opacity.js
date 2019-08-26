@@ -14,7 +14,12 @@ export default function Opacity() {
     Animated.timing(animation, {
       toValue: 0,
       duration: 1500,
-    }).start();
+    }).start(() => { 
+      Animated.timing(animation, {
+        toValue: 1,
+        duration: 1800,
+      }).start();
+    });
   }
 
   const animatedStyles = {

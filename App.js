@@ -3,11 +3,11 @@ import { Text, SafeAreaView, StyleSheet, Button } from 'react-native';
 
 import Opacity from './src/1. Opacity';
 
-const AnimationScreen = [{}, { title: '1. Opacity', Component: Opacity }];
+const AnimationScreen = [{ title: '1. Opacity', Component: Opacity }];
 
 export default function App() {
   const [animationScreenIdx, setAnimationScreenIdx] = React.useState(null);
-  const Comp = animationScreenIdx && AnimationScreen[animationScreenIdx].Component;
+  const Comp = animationScreenIdx && AnimationScreen[animationScreenIdx - 1].Component;
 
   const body = animationScreenIdx ? (
     <>
@@ -17,7 +17,7 @@ export default function App() {
   ) : (
     <>
       {AnimationScreen.map((screen, idx) => (
-        <Text key={screen.title} onPress={() => setAnimationScreenIdx(idx)}>
+        <Text key={screen.title} onPress={() => setAnimationScreenIdx(idx + 1)}>
           {screen.title}
         </Text>
       ))}
