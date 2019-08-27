@@ -2,9 +2,9 @@ import React from 'react';
 import { Text, SafeAreaView, StyleSheet, Button } from 'react-native';
 
 import Opacity from './src/1. Opacity';
-import TranslatePosition from './src/2. Translate Position';
+import TranslatePosition from './src/2. Translate_Position';
 import Scale from './src/3. Scale';
-import WidthHeight from './src/4. Width Height';
+import WidthHeight from './src/4. Width_Height';
 
 
 const AnimationScreen = [
