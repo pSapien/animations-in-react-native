@@ -8,7 +8,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 
-export default function Opacity() {
+export default function Scale() {
   const [animation, setAnimation] = React.useState(new Animated.Value(1));
   
   function startAnimation() {

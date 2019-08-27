@@ -7,7 +7,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 
-export default function Opacity() {
+export default function TranslatePosition() {
   const [animation, setAnimation] = React.useState(new Animated.Value(0));
   
   function startAnimation() {
