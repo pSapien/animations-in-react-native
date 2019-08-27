@@ -6,6 +6,7 @@ import TranslatePosition from './src/2. Translate_Position';
 import Scale from './src/3. Scale';
 import WidthHeight from './src/4. Width_Height';
 import Absolute from './src/5. Absolute';
+import BackgroundInterpolation from './src/6. Background_Interpolation';
 
 const AnimationScreen = [
   { title: '1. Opacity', Component: Opacity },
@@ -13,6 +14,7 @@ const AnimationScreen = [
   { title: '3. Scale', Component: Scale },
   { title: '4. Width and Height', Component: WidthHeight },
   { title: '5. Absolute', Component: Absolute },
+  { title: '6. Background Interpolation', Component: BackgroundInterpolation },
 ];
 
 export default function App() {
