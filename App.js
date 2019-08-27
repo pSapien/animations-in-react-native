@@ -4,12 +4,14 @@ import { Text, SafeAreaView, StyleSheet, Button } from 'react-native';
 import Opacity from './src/1. Opacity';
 import TranslatePosition from './src/2. Translate Position';
 import Scale from './src/3. Scale';
+import WidthHeight from './src/4. Width Height';
 
 
 const AnimationScreen = [
   { title: '1. Opacity', Component: Opacity },
   { title: '2. Translate Position', Component: TranslatePosition },
   { title: '3. Scale', Component: Scale },
+  { title: '4. Width and Height', Component: WidthHeight},
 ];
 
 export default function App() {
