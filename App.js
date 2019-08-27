@@ -7,6 +7,7 @@ import Scale from './src/3. Scale';
 import WidthHeight from './src/4. Width_Height';
 import Absolute from './src/5. Absolute';
 import BackgroundInterpolation from './src/6. Background_Interpolation';
+import Rotation from './src/7. Rotation';
 
 const AnimationScreen = [
   { title: '1. Opacity', Component: Opacity },
@@ -15,10 +16,11 @@ const AnimationScreen = [
   { title: '4. Width and Height', Component: WidthHeight },
   { title: '5. Absolute', Component: Absolute },
   { title: '6. Background Interpolation', Component: BackgroundInterpolation },
+  { title: '7. Rotation', Component: Rotation },
 ];
 
 export default function App() {
-  const [animationScreenIdx, setAnimationScreenIdx] = React.useState(null);
+  const [animationScreenIdx, setAnimationScreenIdx] = React.useState(AnimationScreen.length);
   const Comp = animationScreenIdx && AnimationScreen[animationScreenIdx - 1].Component;
 
   const body = animationScreenIdx ? (
