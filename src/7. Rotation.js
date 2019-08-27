@@ -24,7 +24,7 @@ export default function Rotation() {
   });
 
   const animatedStyles = {
-    transform: [ { rotate : rotateInterpolate } ],
+    transform: [ { rotateY : rotateInterpolate } ],
   }
 
   return (
