@@ -5,3 +5,4 @@
 3. [Scale](https://github.com/pSapien/animations-in-react-native/blob/master/src/3.%20Scale.js)
 4. [Width Height](https://github.com/pSapien/animations-in-react-native/blob/master/src/4.%20Width%20Height.js)
 5. [Absolute](https://github.com/pSapien/animations-in-react-native/blob/master/src/5.%20Absolute.js)
+6. [Background Interpolation](https://github.com/pSapien/animations-in-react-native/blob/master/src/6.%20Background_Interpolation.js)
