@@ -5,13 +5,14 @@ import Opacity from './src/1. Opacity';
 import TranslatePosition from './src/2. Translate_Position';
 import Scale from './src/3. Scale';
 import WidthHeight from './src/4. Width_Height';
-
+import Absolute from './src/5. Absolute';
 
 const AnimationScreen = [
   { title: '1. Opacity', Component: Opacity },
   { title: '2. Translate Position', Component: TranslatePosition },
   { title: '3. Scale', Component: Scale },
-  { title: '4. Width and Height', Component: WidthHeight},
+  { title: '4. Width and Height', Component: WidthHeight },
+  { title: '5. Absolute', Component: Absolute },
 ];
 
 export default function App() {
