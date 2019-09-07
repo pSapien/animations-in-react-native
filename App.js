@@ -9,6 +9,7 @@ import Absolute from './src/5. Absolute';
 import BackgroundInterpolation from './src/6. Background_Interpolation';
 import Rotation from './src/7. Rotation';
 import Easing from './src/8. Easing';
+import Spring from './src/9. Spring';
 
 const AnimationScreen = [
   { title: '1. Opacity', Component: Opacity },
@@ -19,6 +20,7 @@ const AnimationScreen = [
   { title: '6. Background Interpolation', Component: BackgroundInterpolation },
   { title: '7. Rotation', Component: Rotation },
   { title: '8. Easing', Component: Easing },
+  { title: '9. Spring', Component: Spring },
 ];
 
 export default function App() {
