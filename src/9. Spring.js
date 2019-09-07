@@ -13,6 +13,8 @@ export default function Rotation() {
   const [animation, setAnimation] = React.useState(new Animated.Value(1));
   
   function startAnimation() {
+    animation.addListener(({ value }) => console.log(value));
+    // spring shoots value higher than 2 here. it's the property of spring.
     Animated.spring(animation, {
       toValue: 2,
       friction: 2, // causes the spring to slow down. higher the more it slows down.
