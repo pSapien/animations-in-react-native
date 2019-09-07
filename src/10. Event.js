@@ -7,7 +7,7 @@ import {
   ScrollView,
 } from 'react-native';
 
-export default function Rotation() {
+export default function Event() {
   const [animation, setAnimation] = React.useState(new Animated.Value(0));
 
   const backgroundInterpolate = animation.interpolate({

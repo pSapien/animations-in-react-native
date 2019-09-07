@@ -9,7 +9,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 
-export default function Rotation() {
+export default function Easing() {
   const [animation, setAnimation] = React.useState(new Animated.Value(0));
   
   function startAnimation() {

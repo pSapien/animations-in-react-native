@@ -9,7 +9,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 
-export default function Rotation() {
+export default function Spring() {
   const [animation, setAnimation] = React.useState(new Animated.Value(1));
   
   function startAnimation() {
